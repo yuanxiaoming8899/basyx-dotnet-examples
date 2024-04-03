@@ -1,42 +1,32 @@
-﻿# Welcome to basyx-examples!
-In this repository you'll find some examples regarding building and hosting Asset Administration Shells and Submodels.
-
-Some of them are in combination with Repositories that store the Asset Administration Shells resp. Submodels. Some of them provide a stand-alone server version of Asset Administration Shells and/or Submodels only. Some of them are mixtures of all of the components.
-
-And all of those server applications come with a magnificient user interface reachable at 
-
-> http(s)://YOUR_IP_ADDRESS:YOUR_PORT/ui
-
-and of course with an OpenAPI documentation at
-
-> http(s)://YOUR_IP_ADDRESS:YOUR_PORT/swagger
-
-## HelloAssetAdministrationShell
-You always start with a HelloWorld, don't you? The *HelloAssetAdministrationShell* is a good starting point to get used to the concept of how to build an Asset Administration Shell and host it as an HTTP server. Additionally, it provides insights to the concept of *ServiceProvider*s for Asset Administration Shell and Submodels and how they interact with each other.
-
-## SimpleAssetAdministrationShell
-Wow, it's getting even more simple? Yes! The *SimpleAssetAdministrationShell* provides you an powerful example of how fast and efficient you can create and host an Asset Administration Shell and a separately hosted Submodel which in turn is linked from the Asset Administration Shell.
-
-## MultiAssetAdministrationShell
-And what if I have a bunch of Asset Administration Shell? There ya go! The MultiAssetAdministrationShell examples shows how to create and host a couple of Asset Administration Shells at the same time and place. It is stored in an Asset Administration Shell Repository that provides a server API as well.  And for all of that, you won't even leave *Program.cs*. I know, it's insane.
-
-## ComplexAssetAdministration
-Speaking of insanity, the ComplexAssetAdministrationShell example will knock your socks off! It...
-
- 1. initializes and starts a local file-based Registry,
- 2. creates and hosts a stand-alone Asset Administration Shell,
- 3. creates and hosts multiple Asset Administration Shell residing in a Repository,
- 4. creates and hosts multiple Submodels residing in a Submodel Repository,
- 5. and brings all that stuff together via respective client instances.
-
-And again you won't even leave *Program.cs*. Isn't it beautiful?
-
-## Cloud Edge Deployment
-This [example](CloudEdgeDeploymentScenario) shows the setup and usage of a distributed deployment. It contains two servers as shown in the illustration.
-
-## Static Dynamic Extension
-This [example](StaticDynamicScenario) shows the enrichment of AAS data loaded from an aasx file with a dynamically created Submodel.
-
-
-
-
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎来到 basyx-examples！</font></font></h1><a id="user-content-welcome-to-basyx-examples" class="anchor" aria-label="永久链接：欢迎来到 basyx-examples！" href="#welcome-to-basyx-examples"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此存储库中，您将找到一些有关构建和托管资产管理外壳和子模型的示例。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中一些与存储资产管理外壳的存储库结合使用。子模型。其中一些仅提供资产管理外壳和/或子模型的独立服务器版本。其中一些是所有成分的混合物。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有这些服务器应用程序都带有一个精美的用户界面，可通过</font></font></p>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http(s)://YOUR_IP_ADDRESS:YOUR_PORT/ui</font></font></p>
+</blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当然还有 OpenAPI 文档：</font></font></p>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http(s)://YOUR_IP_ADDRESS:YOUR_PORT/swagger</font></font></p>
+</blockquote>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HelloAssetAdministrationShell</font></font></h2><a id="user-content-helloassetadministrationshell" class="anchor" aria-label="永久链接：HelloAssetAdministrationShell" href="#helloassetadministrationshell"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你总是从 HelloWorld 开始，不是吗？ HelloAssetAdministrationShell是一个很好的起点</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以帮助您熟悉如何构建资产管理 Shell 并将其托管为 HTTP 服务器的概念。此外，它还提供了有关资产管理 Shell 和子模型的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ServiceProvider</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概念</font><font style="vertical-align: inherit;">以及它们如何相互交互的见解。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单资产管理Shell</font></font></h2><a id="user-content-simpleassetadministrationshell" class="anchor" aria-label="永久链接：SimpleAssetAdministrationShell" href="#simpleassetadministrationshell"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">哇，是不是变得更简单了？是的！ SimpleAssetAdministrationShell为您提供了一个强大的示例，说明您可以如何快速高效地创建和托管资产管理 Shell 以及单独托管的子模型</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">而子模型又从资产管理 Shell 链接。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多资产管理Shell</font></font></h2><a id="user-content-multiassetadministrationshell" class="anchor" aria-label="永久链接：MultiAssetAdministrationShell" href="#multiassetadministrationshell"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果我有一堆资产管理外壳怎么办？就这样吧！ MultiAssetAdministrationShell 示例展示了如何在同一时间和地点创建和托管多个资产管理 Shell。它存储在资产管理 Shell 存储库中，该存储库还提供服务器 API。尽管如此，您甚至不会离开</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Program.cs</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。我知道，这太疯狂了。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复杂资产管理</font></font></h2><a id="user-content-complexassetadministration" class="anchor" aria-label="永久链接：复杂资产管理" href="#complexassetadministration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">说到疯狂，ComplexAssetAdministrationShell 示例会让您大吃一惊！它...</font></font></p>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">初始化并启动本地基于文件的注册表，</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建并托管一个独立的资产管理外壳，</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建并托管驻留在存储库中的多个资产管理外壳，</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建并托管驻留在子模型存储库中的多个子模型，</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并通过各自的客户端实例将所有这些内容整合在一起。</font></font></li>
+</ol>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同样，您甚至不会离开</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Program.cs</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。是不是很漂亮？</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云边缘部署</font></font></h2><a id="user-content-cloud-edge-deployment" class="anchor" aria-label="永久链接：云边缘部署" href="#cloud-edge-deployment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此</font></font><a href="/eclipse-basyx/basyx-dotnet-examples/blob/main/CloudEdgeDeploymentScenario"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显示分布式部署的设置和使用。它包含两台服务器，如图所示。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">静态动态扩展</font></font></h2><a id="user-content-static-dynamic-extension" class="anchor" aria-label="永久链接：静态动态扩展" href="#static-dynamic-extension"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此</font></font><a href="/eclipse-basyx/basyx-dotnet-examples/blob/main/StaticDynamicScenario"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展示了通过动态创建的子模型丰富从 aasx 文件加载的 AAS 数据。</font></font></p>
+</article></div>
